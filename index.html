@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbog</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -23,7 +27,7 @@
       <div class="menu-logo">
         <a href="#">FlexBlog</a>
       </div>
-      <nav>
+      <nav class="menu-nav">
         <ul>
           <li><a href="#about">Sobre</a></li>
           <li><a href="#products">Produtos</a></li>
@@ -42,32 +46,34 @@
       <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
       <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
     </div>
-    <div class="sobre-img">
+    <div class="img-about">
       <img src="img/sobre1.jpg" alt="Sobre 1">
     </div>
-    <div class="sobre-img">
+    <div class="img-about">
       <img src="img/sobre2.jpg" alt="Sobre 2">
     </div>
   </section>
 
   <section class="products" id="products">
       <h1>Produtos</h1>
-    <div class="products-container">
-      <div class="products-item purple">
+    <div class="container-products">
+      <div class="product-item purple">
         <h2>Purple</h2>
         <img src="img/produtos1.jpg" alt="Produtos 1">
       </div>
-      <div class="products-item pink">
+      <div class="product-item pink">
+        <h2>Pink</h2>
         <img src="img/produtos2.jpg" alt="Produtos 2">
       </div>
-      <div class="products-item blue">
+      <div class="product-item blue">
+        <h2>Blue</h2>
         <img src="img/produtos3.jpg" alt="produtos3">
       </div>
     </div>
   </section>
 
   <section class="price" id="price">
-    <div class="preco-item">
+    <div class="price-item">
       <h2>Cobre</h2>
       <span><sup>R$</sup>19</span>
       <ul>
@@ -78,7 +84,7 @@
       </ul>
       <a href="#">Comprar</a>
     </div>
-    <div class="preco-item">
+    <div class="price-item">
       <h2>Prata</h2>
       <span><sup>R$</sup>39</span>
       <ul>
@@ -90,7 +96,7 @@
       </ul>
       <a href="#">Comprar</a>
     </div>
-    <div class="preco-item">
+    <div class="price-item">
       <h2>Ouro</h2>
       <span><sup>R$</sup>79</span>
       <ul>
